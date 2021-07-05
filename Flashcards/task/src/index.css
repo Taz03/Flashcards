@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/background.png");
+    background-size: cover;
+    background-position-y: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#quiz_area {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(76, 31, 135, 0.541);
+    backdrop-filter: blur(0);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-end;
+    padding: 0.5em;
+    max-width: 50vw;
+    perspective: 10000px;
+}
+
+img {
+    padding-left: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.card {
+    font-family: 'Inter', sans-serif;
+    margin: 0.5em;
+    height: 10em;
+    width: 10em;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    transition: all 0.5s linear;
+    transform-style: preserve-3d;
+}
+
+.front, .back {
+    border-radius: 10px;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.front {
+    z-index: 1;
+    backface-visibility: hidden;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+}
+
+.back {
+    z-index: -1;
+    transform: rotateY(180deg);
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+#title {
+    color: #dedede;
+    margin-top: 2.5vh;
+    align-self: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
