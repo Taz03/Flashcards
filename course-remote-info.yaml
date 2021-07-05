@@ -1,0 +1,104 @@
+hyperskill_project:
+  id: 115
+  ide_files: https://stepik.org/media/attachments/lesson/384602/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: Mon, 05 Jul 2021 11:24:24 UTC
+stages:
+- id: 625
+  step: 10245
+  is_completed: true
+- id: 626
+  step: 10246
+  is_completed: true
+- id: 627
+  step: 10247
+  is_completed: true
+topics:
+  0:
+  - title: IDE
+    theory_id: 10996
+  - title: World Wide Web
+    theory_id: 6633
+  - title: HyperText Transfer Protocol
+    theory_id: 6569
+  - title: HTTP URL
+    theory_id: 6740
+  - title: HTML basics
+    theory_id: 6434
+  - title: Tags and attributes
+    theory_id: 7536
+  - title: HTML page structure
+    theory_id: 6491
+  - title: Block-level elements
+    theory_id: 7271
+  - title: Inline Elements
+    theory_id: 7518
+  - title: Comments
+    theory_id: 7502
+  - title: What is CSS
+    theory_id: 7678
+  - title: Connecting CSS to HTML
+    theory_id: 7418
+  - title: HTML attributes id and class
+    theory_id: 7527
+  - title: The lang attribute
+    theory_id: 12212
+  - title: WebStorm
+    theory_id: 9492
+  1:
+  - title: Basic syntax
+    theory_id: 7722
+  - title: CSS Selectors
+    theory_id: 7738
+  - title: Comments
+    theory_id: 7730
+  - title: Google Fonts
+    theory_id: 7844
+  - title: Colors
+    theory_id: 7973
+  - title: Border
+    theory_id: 8355
+  - title: Absolute units
+    theory_id: 10605
+  - title: Relative units
+    theory_id: 10671
+  - title: Width and height
+    theory_id: 8325
+  - title: Margin and padding
+    theory_id: 8346
+  - title: Background
+    theory_id: 11670
+  - title: Position
+    theory_id: 11581
+  - title: Positioning Properties
+    theory_id: 8204
+  - title: Float
+    theory_id: 12697
+  - title: Clear
+    theory_id: 12705
+  - title: Introduction to Flexbox
+    theory_id: 11760
+  - title: Orientation and display order
+    theory_id: 11768
+  - title: Flexibility, growth and contraction ratio
+    theory_id: 11776
+  - title: Axis alignment
+    theory_id: 11784
+  2:
+  - title: HTML forms
+    theory_id: 6560
+  - title: Lists
+    theory_id: 8178
+  - title: Pseudo-classes
+    theory_id: 9762
+  - title: Tables
+    theory_id: 10832
+  - title: Visibility
+    theory_id: 10840
+  - title: z-index
+    theory_id: 11161
+  - title: Transform
+    theory_id: 12204
+  - title: Backface-visibility
+    theory_id: 12219

@@ -39,8 +39,13 @@ body {
 
 img {
     padding-left: 10%;
-    height: 80%;
-    width: 80%;
+    height: 85%;
+    width: 85%;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 .card {
@@ -87,4 +92,11 @@ img {
     align-self: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+}
+
+.caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #f0f0f0;
 }
